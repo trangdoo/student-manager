@@ -1,0 +1,18 @@
+/* Simple styles for student table */
+.sm-student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+.sm-student-table th,
+.sm-student-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.sm-student-table th {
+    background: #f5f5f5;
+}
+.sm-student-table tr:nth-child(even) {
+    background: #fbfbfb;
+}
